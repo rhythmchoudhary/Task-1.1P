@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DIRECTORY_PATH = "https://github.com/rhythmchoudhary/Task-1.1P"
+        DIRECTORY_PATH = "https://github.com/rhythmchoudhary/Task-1.1P/tree/main"
         TESTING_ENVIRONMENT = "Testing_Env"
         PRODUCTION_ENVIRONMENT = "Rhythm Choudhary"  // Change this to your name
     }
