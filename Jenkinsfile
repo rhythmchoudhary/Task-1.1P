@@ -73,12 +73,7 @@ pipeline {
             }
         }
 
-        stage('Approval') {
-            steps {
-                echo "Waiting for manual approval..."
-                input message: "Approve deployment to production?", ok: "Deploy"
-            }
-        }
+
 
         stage('Deploy to Production') {
             steps {
